@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categoria</title>
+    <link rel="stylesheet" href="../css/categoria.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Edu+TAS+Beginner:wght@400..700&family=Jersey+25+Charted&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Farsan&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <h1>Mente em equilíbrio</h1>
+        <nav>
+            <a href="../../index.html">Início</a> | 
+            <a href="sobre.html">Sobre Nós</a> | 
+            <a href="recursos.html">Recursos</a> | 
+            <a href="categoria.html">Categoria</a> | 
+            <a href="contato.html">Contato</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Pesquisar...">
+            <img src="../../img/imagem-5.png" alt="Ícone de lupa">
+        </div>
+    </header>
+    <main class="main">
+        <section>
+            <h1 class="titulo">Biblioteca </h1>
+            <div class="category-container">
+                <button class="filter-button" data-filter="filme">Filme</button>
+                <button class="filter-button" data-filter="serie">Série</button>
+                <button class="filter-button" data-filter="livro">Livro</button>
+                <button class="filter-button" data-filter="jogo">Jogo</button>
+                <button class="filter-button" data-filter="animação">Animação</button>
+                <button class="filter-button" data-filter="musica">Música</button>
+            </div>
+            <div id="cards-container">
+                
+            </div>
+
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span id="close">&times;</span>
+                    <p id="modal-text">Conteúdo do modal aqui</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        © 2024 Comunidade de Cuidado Mental
+    </footer>
+
+    <script src="../js/caregoria.js"></script>
+</body>
+</html>

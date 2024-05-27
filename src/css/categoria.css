@@ -1,0 +1,202 @@
+/* ... rest of your CSS ... */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cac5b5;
+    text-decoration: none;
+}
+
+.navbar {
+    border:3px solid #306422;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #f3f3e2;
+    color: #306422;
+    margin: 20px 20px;
+    padding: 5px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.navbar h1{
+    font-size: 35px;
+    font-family: "Rye", serif;
+    font-weight: 400;
+}
+
+.navbar a {
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    font-weight: 800;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #cac5b5;
+    color: #333;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input {
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    padding: 5px;
+    border: 3px dashed #000000;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-container img {
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    background-color: #f3f3e2;
+}
+
+
+.category-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    
+}
+
+.category-container button {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: "Caveat", cursive;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.category-container button:hover {
+    background-color: #005580;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 70px 40px;
+}
+
+.main .titulo{
+    padding: 25px;
+    font-size: 40px;
+    font-family: "Farsan", cursive;
+    font-weight: 600;
+    color: #333;
+}
+
+.card {
+    background-color: #f3f3e2;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    border: 1px dashed #000000;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #005580;
+}
+
+.footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px dashed #000000;
+    border-radius: 25px;
+    width: 50%;
+    font-family: "Farsan", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.close {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

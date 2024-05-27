@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .main section {
+        flex-direction: column;
+    }
+    .main img {
+        width: 100%;
+        margin-left: 0;
+    }
+}

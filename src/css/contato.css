@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cac5b5;
+}
+
+.navbar {
+    border:3px solid #306422;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #f3f3e2;
+    color: #306422;
+    padding: 3px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    padding: 5px;
+}
+
+.navbar h1{
+    font-size: 35px;
+    font-family: "Rye", serif;
+    font-weight: 400;
+}
+
+.navbar a {
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    font-weight: 800;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #cac5b5;
+    color: #333;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input {
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    padding: 10px;
+    border: 3px dashed #000000;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-container img {
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    background-color: #f3f3e2;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f3f3e2;
+    margin: 70px 40px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.main .descricao .titulo {
+    font-size: 30px;
+    font-family: "Farsan", cursive;
+    font-weight: 600;
+    color: #333;
+    
+}
+.main .descricao h3{
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+}
+
+.main .descricao p {
+    margin: 10px 0;
+    font-size: 25px;
+    font-family: "Farsan", cursive;
+}
+
+.main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main ul li {
+    margin: 10px 0;
+    font-size: 25px;
+    font-family: "Farsan", cursive;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
